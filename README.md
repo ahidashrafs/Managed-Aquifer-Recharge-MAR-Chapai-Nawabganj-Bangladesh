@@ -2,24 +2,16 @@
 An ArcGIS Pro suitability model for Managed Aquifer Recharge (MAR) in Chapai Nawabganj. Integrates soil texture, slope, LULC, rainfall, and drainage layers using MCDA-AHP to map optimal infiltration zones, addressing regional groundwater depletion with data-driven water resource engineering.
 # Managed Aquifer Recharge (MAR) Site Suitability Mapping: Chapai Nawabganj, Bangladesh
 
-A data-driven spatial engineering project utilizing **ArcGIS Pro** and Multi-Criteria Decision Analysis (MCDA) to identify optimal zones for Managed Aquifer Recharge (MAR). This study targets the drought-prone Barind Tract conditions of Chapai Nawabganj to provide data-driven solutions for artificial groundwater table replenishment.
+A data-driven spatial project utilizing **ArcGIS Pro** and Multi-Criteria Decision Analysis (MCDA) to identify optimal zones for Managed Aquifer Recharge (MAR). This study targets the drought-prone Barind Tract conditions of Chapai Nawabganj to provide data-driven solutions for artificial groundwater table replenishment.
 
 ---
 
-## 📊 MCDA Criteria & Weighting Distribution
+## MCDA Criteria & Weighting Distribution
 To remove subjectivity from the spatial overlay, an Analytical Hierarchy Process (AHP) pair-wise comparison matrix was established to balance hydrogeological inputs.
 
-### 📊 Spatial Factor Influence Breakdown
+### Spatial Factor Influence Breakdown
 The chart below visualizes the prioritized weight distribution derived from our multi-criteria decision comparison matrix:
 
-| Factor | Influence Weight | Visual Distribution Profile |
-| :--- | :---: | :--- |
-| 💧 **Rainfall Depth** | **25%** | <progress value="25" max="100"></progress> |
-| ⏳ **Soil Texture** | **20%** | <progress value="20" max="100"></progress> |
-| 📐 **Slope Geometry** | **20%** | <progress value="20" max="100"></progress> |
-| 🌱 **Land Use / Cover** | **15%** | <progress value="15" max="100"></progress> |
-| 🕸️ **Drainage Density** | **10%** | <progress value="10" max="100"></progress> |
-| 🌊 **River Proximity** | **10%** | <progress value="10" max="100"></progress> |
 
 
 | Spatial Variable | Weight Allocation | Infiltration Role | Engineering Rationale |
@@ -62,19 +54,19 @@ Supervised classification tracking how natural and anthropogenic landscapes inte
 
 ---
 
-💡 Key Insight:
-The final suitability model reveals a sharp geographic split. The southern alluvial plains and low-gradient agricultural zones show "High" to "Very High" suitability due to highly permeable soil textures, proximity to the Ganges/Padma fluvial networks, and flat slope conditions (<0.94°). Conversely, the eastern zones show high constraint scores where impervious built-up development restricts downward aquifer percolation.
+Key Insight:
+The final suitability model reveals a good geographic split. The southern alluvial plains and low-gradient agricultural zones show "High" to "Very High" suitability due to highly permeable soil textures, proximity to the Ganges/Padma river networks, and flat slope conditions (<0.94°). On the other hand, the eastern zones show high constraint scores where impervious built-up development restricts downward aquifer percolation.
 
 
 ---
 
-## 🛠️ Geoprocessing & Spatial Toolsets Used
+## Geoprocessing & Spatial Toolsets Used
 * **Surface Analyst Engine:** `Slope` generation from DEM terrains to calculate infiltration hold-times.
 * **Image Classification:** Supervised classification workflow for multi-band Landsat 8 datasets.
 * **Overlay Engine:** `Reclassify` and `Weighted Overlay` (or `Weighted Sum`) to execute the multi-criteria suitability matrix.
 
 ---
 
-## 📂 Source Data Provenance
+## Source 
 * **Digital Elevation Model & Landsat 8 Imagery:** [USGS EarthExplorer](https://earthexplorer.usgs.gov/)
-* **Spatio-Temporal Rainfall Data:** [CHIRPS / Climate Hazards Center](https://www.chc.ucsb.
+* **Spatio-Temporal Rainfall Data:** [CHIRPS / Climate Hazards Center]((https://www.chc.ucsb.edu/data/chirps))

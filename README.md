@@ -9,20 +9,17 @@ A data-driven spatial engineering project utilizing **ArcGIS Pro** and Multi-Cri
 ## 📊 MCDA Criteria & Weighting Distribution
 To remove subjectivity from the spatial overlay, an Analytical Hierarchy Process (AHP) pair-wise comparison matrix was established to balance hydrogeological inputs.
 
-### 📈 Spatial Factor Influence Breakdown
+### 📊 Spatial Factor Influence Breakdown
+The chart below visualizes the prioritized weight distribution derived from our multi-criteria decision comparison matrix:
 
-* 💧 **Rainfall Depth** `[25%]`
-    * [|||||||||||||||||||||||||]
-* ⏳ **Soil Texture** `[20%]`
-    * [||||||||||||||||||||]
-* 📐 **Slope Geometry** `[20%]`
-    * [||||||||||||||||||||]
-* 🌱 **Land Use / Cover** `[15%]`
-    * [|||||||||||||||]
-* 🕸️ **Drainage Density** `[10%]`
-    * [||||||||||]
-* 🌊 **River Proximity** `[10%]`
-    * [||||||||||]
+| Factor | Influence Weight | Visual Distribution Profile |
+| :--- | :---: | :--- |
+| 💧 **Rainfall Depth** | **25%** | <progress value="25" max="100"></progress> |
+| ⏳ **Soil Texture** | **20%** | <progress value="20" max="100"></progress> |
+| 📐 **Slope Geometry** | **20%** | <progress value="20" max="100"></progress> |
+| 🌱 **Land Use / Cover** | **15%** | <progress value="15" max="100"></progress> |
+| 🕸️ **Drainage Density** | **10%** | <progress value="10" max="100"></progress> |
+| 🌊 **River Proximity** | **10%** | <progress value="10" max="100"></progress> |
 
 
 | Spatial Variable | Weight Allocation | Infiltration Role | Engineering Rationale |

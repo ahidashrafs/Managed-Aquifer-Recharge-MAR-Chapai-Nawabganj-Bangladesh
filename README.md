@@ -10,12 +10,19 @@ A data-driven spatial engineering project utilizing **ArcGIS Pro** and Multi-Cri
 To remove subjectivity from the spatial overlay, an Analytical Hierarchy Process (AHP) pair-wise comparison matrix was established to balance hydrogeological inputs.
 
 ### 📈 Spatial Factor Influence Breakdown
-Rainfall Depth     [25%] ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-Soil Texture       [20%] ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-Slope Geometry     [20%] ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-Land Use / Cover   [15%] ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-Drainage Density   [10%] ▓▓▓▓▓▓▓▓▓▓
-River Proximity    [10%] ▓▓▓▓▓▓▓▓▓▓
+
+* 💧 **Rainfall Depth** `[25%]`
+    * [|||||||||||||||||||||||||]
+* ⏳ **Soil Texture** `[20%]`
+    * [||||||||||||||||||||]
+* 📐 **Slope Geometry** `[20%]`
+    * [||||||||||||||||||||]
+* 🌱 **Land Use / Cover** `[15%]`
+    * [|||||||||||||||]
+* 🕸️ **Drainage Density** `[10%]`
+    * [||||||||||]
+* 🌊 **River Proximity** `[10%]`
+    * [||||||||||]
 
 
 | Spatial Variable | Weight Allocation | Infiltration Role | Engineering Rationale |

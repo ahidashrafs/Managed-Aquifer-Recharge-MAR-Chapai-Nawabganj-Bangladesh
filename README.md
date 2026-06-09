@@ -1,6 +1,6 @@
 # Managed-Aquifer-Recharge-Chapai-Nawabganj
 An ArcGIS Pro suitability model for Managed Aquifer Recharge (MAR) in Chapai Nawabganj. Integrates soil texture, slope, LULC, rainfall, and drainage layers using MCDA-AHP to map optimal infiltration zones, addressing regional groundwater depletion with data-driven water resource engineering.
-# Managed Aquifer Recharge (MAR) Site Suitability Mapping: Chapai Nawabganj, Bangladesh
+# Managed-Aquifer-Recharge-Chapai-Nawabganj
 
 A data-driven spatial project utilizing **ArcGIS Pro** and Multi-Criteria Decision Analysis (MCDA) to identify optimal zones for Managed Aquifer Recharge (MAR). This study targets the drought-prone Barind Tract conditions of Chapai Nawabganj to provide data-driven solutions for artificial groundwater table replenishment.
 
